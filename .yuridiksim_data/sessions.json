@@ -1,0 +1,115 @@
+[
+  {
+    "session": {
+      "id": "sim_1d9wovv9",
+      "scenarioId": "CASE-001",
+      "userId": "demo-student-id",
+      "currentStage": "applicant_interview",
+      "currentCharacterRole": "applicant",
+      "unlockedFactIds": [
+        "FACT-001",
+        "FACT-002"
+      ],
+      "unlockedEvidenceIds": [],
+      "studentNotes": "",
+      "startedAt": "2026-11-21T06:49:05.097Z",
+      "lastActivityAt": "2026-11-21T06:57:15.390Z",
+      "status": "in_progress"
+    },
+    "messages": [
+      {
+        "id": "msg_init",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+        "createdAt": "2026-11-21T06:49:05.107Z"
+      },
+      {
+        "id": "msg_stu_vrm2wn9",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "applicant",
+        "senderType": "student",
+        "content": "Nikohingiz rasman qayd etilganmi va bolaning tug‘ilganlik haqidagi guvohnomasida otasi ko‘rsatilganmi?",
+        "metadata": {
+          "detectedTopic": "relationship_context"
+        },
+        "createdAt": "2026-11-21T06:49:18.061Z"
+      },
+      {
+        "id": "msg_char_jxxhxi1",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "To'g'risi, bolaning moddiy ta'minoti mening zimmamga tushib qoldi. Otasi o'z xohishi bilan yetarli pul bermayapti. Qonun bo'yicha aliment undirish uchun qanday hujjatlar to'plashim kerak?",
+        "metadata": {
+          "unlockedFactIds": [],
+          "unlockedEvidenceIds": []
+        },
+        "createdAt": "2026-11-21T06:49:18.068Z"
+      },
+      {
+        "id": "msg_init_respondent_1795243849134",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "respondent",
+        "senderType": "character",
+        "content": "Salom. To'g'risi, nega bu yerga chaqirishganiga uncha tushunmadim. Dilnoza mening ustimdan shikoyat qilganmush. Men o'z bolamdan hech qachon qochganim yo'q! Avgust oyida kartasiga 1 million 200 ming so'm pul o'tkazdim, sentabrda esa tog'avachchasi Otabekdan 2 million so'm naqd pul ham berib yubordim. Yana qanday da'vo bo'lishi mumkin?",
+        "createdAt": "2026-11-21T06:50:49.134Z"
+      },
+      {
+        "id": "msg_init_witness_1795243907015",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "witness",
+        "senderType": "character",
+        "content": "Assalomu alaykum. Meni guvoh sifatida so'rashayotgan ekan. Men faqat o'zim bilgan haqiqatni aytishim mumkin. O'rtada tushunmovchilik bo'lmasin, men hech kimning tarafini olmoqchi emasman.",
+        "createdAt": "2026-11-21T06:51:47.015Z"
+      },
+      {
+        "id": "msg_stu_aejsx5h",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "applicant",
+        "senderType": "student",
+        "content": "Nikohingiz rasman qayd etilganmi va bolaning tug‘ilganlik haqidagi guvohnomasida otasi ko‘rsatilganmi?",
+        "metadata": {
+          "detectedTopic": "relationship_context"
+        },
+        "createdAt": "2026-11-21T06:56:56.853Z"
+      },
+      {
+        "id": "msg_char_uaij97f",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "O'g'limiz Sanjar 8 yoshda, hozir 2-sinfda o'qiydi. Biz alohida yashashni boshlaganimizdan beri bola to'liq mening qaramog'imda va tarbiyamda. Otasi esa haftalab, oylab xabar olmaydi.",
+        "metadata": {
+          "unlockedFactIds": [],
+          "unlockedEvidenceIds": []
+        },
+        "createdAt": "2026-11-21T06:56:56.858Z"
+      },
+      {
+        "id": "msg_stu_xufuij4",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "applicant",
+        "senderType": "student",
+        "content": "Nikohingiz rasman qayd etilganmi va bolaning tug‘ilganlik haqidagi guvohnomasida otasi ko‘rsatilganmi?",
+        "metadata": {
+          "detectedTopic": "relationship_context"
+        },
+        "createdAt": "2026-11-21T06:57:15.390Z"
+      },
+      {
+        "id": "msg_char_bh1onkg",
+        "sessionId": "sim_1d9wovv9",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "O'g'limiz Sanjar 8 yoshda, hozir 2-sinfda o'qiydi. Biz alohida yashashni boshlaganimizdan beri bola to'liq mening qaramog'imda va tarbiyamda. Otasi esa haftalab, oylab xabar olmaydi.",
+        "metadata": {
+          "unlockedFactIds": [],
+          "unlockedEvidenceIds": []
+        },
+        "createdAt": "2026-11-21T06:57:15.394Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,417 @@
+{
+  "id": "CASE-001",
+  "slug": "aliment-tolovlari-nizosi",
+  "titleUz": "Aliment to‘lovlari bilan bog‘liq nizo",
+  "legalArea": "family_law",
+  "legalAreaUz": "Oila huquqi",
+  "difficulty": "orta",
+  "difficultyUz": "O‘rta",
+  "estimatedDurationMinutes": 45,
+  "learningObjectivesUz": [
+    "Ariza beruvchi va javobgardan qonuniy ahamiyatga ega faktlarni izchil so‘rab olish",
+    "Guvohning ko‘rsatmalarini bevosita ko‘rgan va eshitgan holatlari bo‘yicha tekshirish",
+    "Da'vo vajlarini hujjatli dalillar (bank kvitansiyalari, yozishmalar) bilan solishtirish",
+    "Tomonlarning bayonotlaridagi nomuvofiqlik va ziddiyatlarni aniqlash",
+    "O'zbekiston Respublikasi Oila kodeksining alimentga oid normalarini to‘g‘ri qo‘llash",
+    "Sud orqali aliment undirish tartibi va o'tgan davr uchun undirish imkoniyatini baholash",
+    "Mantiqan asoslangan ta'limiy huquqiy xulosa va ariza loyihasini tayyorlash"
+  ],
+  "publicBriefUz": {
+    "summary": "Er-xotin alohida yashaydi. Voyaga yetmagan 8 yoshli bola onasi (Ariza beruvchi) qaramog‘ida. Ona otaning moddiy ta'minot to'lovlari muntazam emasligini, bola ehtiyojlariga yetarli mablag' berilmayotganini ta'kidlamoqda. Ota esa aliment va xarajatlar uchun pul to‘lab kelganini, jumladan yaqinda qarindosh orqali naqd pul berib yuborganini aytmoqda.",
+    "background": "Farzand 2016-yilda tug‘ilgan. Tomonlar taxminan bir yildan buyon amalda birga yashamaydi, biroq nikoh qonuniy bekor qilinmagan va aliment to‘lash bo‘yicha notarial tasdiqlangan yozma kelishuv tuzilmagan. Ariza beruvchi o‘z huquqlari va kelgusi qonuniy qadamlarni aniqlash uchun yuridik klinikaga murojaat qilgan.",
+    "parties": [
+      {
+        "role": "applicant",
+        "description": "Dilnoza Karimova — 1991-yilda tug'ilgan, bolaning onasi. Hozirda maktabda o'qituvchi bo'lib ishlaydi."
+      },
+      {
+        "role": "respondent",
+        "description": "Jasur Toshpo'latov — 1988-yilda tug'ilgan, bolaning otasi. Xususiy korxonada savdo bo'yicha menejer."
+      },
+      {
+        "role": "witness",
+        "description": "Otabek Ergashev — Dilnozaning tog'avachchasi, Jasur bilan bir mahallada istiqomat qiladi."
+      }
+    ],
+    "studentMission": "Siz ushbu ish bo‘yicha tergovchi/yurist-amaliyotchi vazifasisiz. Har uchala ishtirokchini so‘roq qiling, yashirin dalillarni aniqlang, da'volar va dalillar o'rtasidagi nomuvofiqliklarni tahlil qiling hamda mijoz uchun asoslangan huquqiy xulosa va sud arizasi qoralamasini tayyorlang."
+  },
+  "characters": [
+    {
+      "role": "applicant",
+      "name": "Dilnoza Karimova",
+      "uzbekTitle": "Ariza beruvchi (Bolaning onasi)",
+      "personality": "Vazmin, biroq farzandining kelajagi va moddiy qiyinchiliklardan qattiq xavotirda. Savollarga tabiiy javob beradi, ammo yuridik jihatlarni chuqur bilmaydi. Dastlab hamma xarajatlarni eslay olmasligi mumkin. Agar talaba aniq va mantiqiy savollar bersa, xarajatlar va o'tkazmalar haqida batafsil ma'lumot beradi.",
+      "relationToCase": "Bolaning doimiy tarbiyasi va parvarishi bilan shug'ullanayotgan ona.",
+      "initialMessage": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+      "authorizedFactIds": ["FACT-001", "FACT-002", "FACT-003", "FACT-004", "FACT-007", "FACT-009", "FACT-010"]
+    },
+    {
+      "role": "respondent",
+      "name": "Jasur Toshpo'latov",
+      "uzbekTitle": "Javobgar (Bolaning otasi)",
+      "personality": "O'zini himoya qilishga moyil, biroq xushmuomala va o'z nuqtai nazarini isbotlashga urinadi. Farzandini yaxshi ko'rishini, imkoni boricha yordam berayotganini aytadi. Ayolining barcha vajlarini inkor etadi va sentabr oyida qarindosh orqali 2 million so'm naqd pul berib yuborganini ta'kidlaydi.",
+      "relationToCase": "Bolaning otasi, alohida istiqomat qiladi.",
+      "initialMessage": "Salom. To'g'risi, nega bu yerga chaqirishganiga uncha tushunmadim. Dilnoza mening ustimdan shikoyat qilganmush. Men o'z bolamdan hech qachon qochganim yo'q! Avgust oyida kartasiga 1 million 200 ming so'm pul o'tkazdim, sentabrda esa tog'avachchasi Otabekdan 2 million so'm naqd pul ham berib yubordim. Yana qanday da'vo bo'lishi mumkin?",
+      "authorizedFactIds": ["FACT-001", "FACT-002", "FACT-005", "FACT-006", "FACT-008", "FACT-010"]
+    },
+    {
+      "role": "witness",
+      "name": "Otabek Ergashev",
+      "uzbekTitle": "Guvoh (Dilnozaning tog'avachchasi)",
+      "personality": "Ehtiyotkor, xolis bo'lishga harakat qiladi. Faqat o'zi ko'rgan va eshitgan narsalarni gapiradi. Taxmin qilishdan saqlanadi. Jasur unga konvert berganini tasdiqlaydi, lekin konvert ichida qancha pul bo'lganini yoki Dilnozaga qachon yetib borganini aniq bilmaydi.",
+      "relationToCase": "Jasurning qo'shnisi va Dilnozaning qarindoshi bo'lgan oraliq shaxs.",
+      "initialMessage": "Assalomu alaykum. Meni guvoh sifatida so'rashayotgan ekan. Men faqat o'zim bilgan haqiqatni aytishim mumkin. O'rtada tushunmovchilik bo'lmasin, men hech kimning tarafini olmoqchi emasman.",
+      "authorizedFactIds": ["FACT-001", "FACT-006", "FACT-008"]
+    }
+  ],
+  "facts": [
+    {
+      "id": "FACT-001",
+      "isPublic": true,
+      "authorizedRoles": ["applicant", "respondent", "witness"],
+      "topic": "relationship_context",
+      "titleUz": "Alohida yashash va bolaning istiqomati",
+      "descriptionUz": "Tomonlar rasman nikohda, biroq 2023-yil oktabr oyidan buyon alohida yashamoqda. 8 yoshli Sanjar to'liq onasi bilan birga yashaydi."
+    },
+    {
+      "id": "FACT-002",
+      "isPublic": true,
+      "authorizedRoles": ["applicant", "respondent"],
+      "topic": "written_arrangement",
+      "titleUz": "Yozma kelishuvning yo'qligi",
+      "descriptionUz": "Tomonlar o'rtasida aliment to'lash yoki bolani moddiy ta'minlash bo'yicha notarial tasdiqlangan kelishuv tuzilmagan."
+    },
+    {
+      "id": "FACT-003",
+      "isPublic": false,
+      "authorizedRoles": ["applicant"],
+      "topic": "payment_history",
+      "titleUz": "Avgust oyidagi bank o'tkazmasi tabiati",
+      "descriptionUz": "Dilnoza 2024-yil 18-avgustda 1,200,000 so'm pul olganini tan oladi, lekin bu muntazam aliment emas, balki bolaning maktab formasi va darsliklari uchun bir martalik kelishilgan xarajat ekanligini aytadi.",
+      "unlocksEvidenceId": "EVD-001"
+    },
+    {
+      "id": "FACT-004",
+      "isPublic": false,
+      "authorizedRoles": ["applicant"],
+      "topic": "child_expenses",
+      "titleUz": "Hujjatlashtirilgan xarajatlar",
+      "descriptionUz": "Dilnoza oxirgi uch oyda bola uchun qilingan xarajatlar cheklarini saqlab qo'ygan: kiyim-kechak, shifokor konsultatsiyasi va dori-darmonlar jami 2,850,000 so'mni tashkil qilgan.",
+      "unlocksEvidenceId": "EVD-003"
+    },
+    {
+      "id": "FACT-005",
+      "isPublic": false,
+      "authorizedRoles": ["respondent"],
+      "topic": "payment_history",
+      "titleUz": "Javobgarning to'lov pozitsiyasi",
+      "descriptionUz": "Jasur avgustdagi 1,200,000 so'mni to'liq aliment sifatida baholaydi va sentabr oyi uchun Otabek orqali 2,000,000 so'm naqd berganini iddao qiladi.",
+      "unlocksEvidenceId": "EVD-002"
+    },
+    {
+      "id": "FACT-006",
+      "isPublic": false,
+      "authorizedRoles": ["respondent", "witness"],
+      "topic": "cash_payment",
+      "titleUz": "Konvert topshirish holati",
+      "descriptionUz": "2024-yil 12-sentabrda Jasur Otabekka muhrlanmagan oq konvert bergan. Jasur 'ichida 2 million so'm bor, Dilnozaga berib qo'y' degan. Otabek konvert ichini sanab ko'rmagan.",
+      "revealsContradiction": "CONTRA-001",
+      "unlocksEvidenceId": "EVD-004"
+    },
+    {
+      "id": "FACT-007",
+      "isPublic": false,
+      "authorizedRoles": ["applicant"],
+      "topic": "cash_payment",
+      "titleUz": "Naqd pul olinmaganligi haqidagi da'vo",
+      "descriptionUz": "Dilnoza sentabr oyida hech qanday naqd pul olmaganini, Otabek unga hech qanday konvert bermaganini, faqat qo'ng'iroq qilib Jasur nimadir berib yubormoqchiligini aytganini, lekin keyin uchrashmaganliklarini ta'kidlaydi."
+    },
+    {
+      "id": "FACT-008",
+      "isPublic": false,
+      "authorizedRoles": ["respondent", "witness"],
+      "topic": "communication_history",
+      "titleUz": "Telegram orqali bahsli yozishmalar",
+      "descriptionUz": "Jasur va Dilnoza o'rtasida 2024-yil sentabr oxirida keskin yozishma bo'lib o'tgan. Dilnoza 'pul qani?' deb so'raganida, Jasur 'Otabekdan so'ra' deb javob bergan.",
+      "unlocksEvidenceId": "EVD-005"
+    },
+    {
+      "id": "FACT-009",
+      "isPublic": false,
+      "authorizedRoles": ["applicant"],
+      "topic": "prior_legal_steps",
+      "titleUz": "Oldin sudga murojaat qilinmaganligi",
+      "descriptionUz": "Dilnoza ilgari FHDYo yoki sudga aliment undirish to'g'risida ariza bilan murojaat qilmagan, erining vijdoniga ishonib kelgan."
+    },
+    {
+      "id": "FACT-010",
+      "isPublic": false,
+      "authorizedRoles": ["applicant", "respondent"],
+      "topic": "respondent_income",
+      "titleUz": "Javobgarning daromad holati",
+      "descriptionUz": "Jasurning rasmiy oylik maoshi xususiy firmada 3,500,000 so'm, biroq norasmiy savdo foizlari ham borligini aytishadi. Rasmiy hujjat talab qilinishi lozim."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EVD-001",
+      "titleUz": "Elektron to'lov cheki (Bank o'tkazmasi)",
+      "typeUz": "Moliyaviy hujjat / Elektron chek",
+      "descriptionUz": "2024-yil 18-avgust sanasidagi 'Payme' tizimi orqali amalga oshirilgan to'lov ma'lumotnomasi.",
+      "submittedByUz": "Dilnoza Karimova tomonidan taqdim etilgan",
+      "dateOrTimelineUz": "18.08.2024, soat 14:32",
+      "contentUz": "Yuboruvchi: Toshpo'latov J. S. (karta oxiri 4492)\nQabul qiluvchi: Karimova D. B. (karta oxiri 8104)\nSumma: 1,200,000 UZS\nTo'lov maqsadi/Izoh: 'Sanjar maktabga moddiy yordam'\nHolati: Muvaffaqiyatli bajarildi",
+      "reliabilityConsiderationsUz": "Hujjat elektron kvitansiya sifatida to'lov faktini va sanasini to'liq tasdiqlaydi. Biroq izohda 'aliment' deb emas, balki 'Sanjar maktabga moddiy yordam' deb ko'rsatilganligi nizoli.",
+      "whatItMayEstablishUz": "Avgust oyida 1,200,000 so'm mablag' o'tkazilganligini.",
+      "whatItDoesNotEstablishUz": "Ushbu to'lov oylik aliment majburiyatini to'liq qoplaganligini yoki bir martalik qo'shimcha xarajat ekanligini qonunan qat'iy belgilamaydi.",
+      "relatedLegalIssueUz": "Oila kodeksi 99-moddasi (daromadning 1/4 qismi) va 103-moddasi (qo'shimcha xarajatlarda ishtirok etish) o'rtasidagi farq.",
+      "unlockCondition": {
+        "requiredTopic": "payment_history",
+        "requiredRole": "applicant"
+      }
+    },
+    {
+      "id": "EVD-002",
+      "titleUz": "Telegram messenjeri orqali yozishmalar skrinshoti",
+      "typeUz": "Elektron xabarlar / Skrinshot",
+      "descriptionUz": "Dilnoza va Jasur o'rtasida 2024-yil 22-sentabr kunidagi yozishmalar nusxasi.",
+      "submittedByUz": "Jasur Toshpo'latov tomonidan ko'rsatilgan",
+      "dateOrTimelineUz": "22.09.2024",
+      "contentUz": "[22.09.2024 19:15] Dilnoza: Jasur, Sanjarning darsliklari va kiyimiga pul berishingiz kerak, qachon yordam qilasiz?\n[22.09.2024 19:18] Jasur: Men avgustda 1.2 mln tashladim-ku! Sentabr uchun ham Otabek orqali 2 million berib yuborganman.\n[22.09.2024 19:20] Dilnoza: Qanaqa 2 million? Men hech narsa olganim yo'q! Nega yolg'on gapirasiz?\n[22.09.2024 19:22] Jasur: Otabekdan so'ra, men unga konvertda berganman.",
+      "reliabilityConsiderationsUz": "Skrinshot tomonlar o'rtasida ziddiyat borligini ko'rsatadi, biroq pulning haqiqatda topshirilganligini tasdiqlovchi to'g'ridan-to'g'ri isbot hisoblanmaydi.",
+      "whatItMayEstablishUz": "Tomonlar o'rtasida to'lov masalasida o'sha vaqtning o'zida nizo mavjud bo'lganligini.",
+      "whatItDoesNotEstablishUz": "2 million so'm naqd pul haqiqatan ham Dilnozaga yetib borganligini.",
+      "relatedLegalIssueUz": "O'zbekiston Respublikasi Fuqarolik protsessual kodeksining dalillarning maqbulligi qoidalari (og'zaki ko'rsatmalar orqali yirik naqd to'lovlarni isbotlash cheklovlari).",
+      "unlockCondition": {
+        "requiredTopic": "communication_history"
+      }
+    },
+    {
+      "id": "EVD-003",
+      "titleUz": "Bolaning dori-darmon va maktab xarajatlari kvitansiyalari",
+      "typeUz": "Fiskal cheklar to'plami",
+      "descriptionUz": "Oxirgi 3 oy ichida Sanjar uchun xarid qilingan maktab buyumlari va pediatr tayinlagan dori-darmonlar cheklari.",
+      "submittedByUz": "Dilnoza Karimova tomonidan taqdim etilgan",
+      "dateOrTimelineUz": "Avgust - Oktabr 2024-yil",
+      "contentUz": "1. 'Sharq Ziyo' do'koni cheki: Maktab formasi va sumka — 980,000 UZS (20.08.2024)\n2. 'O'quvchi' kitoblar do'koni: Darsliklar to'plami — 420,000 UZS (25.08.2024)\n3. 'Dori-Darmon' dorixonasi: Pediatr retsepti bo'yicha vitaminlar va dorilar — 650,000 UZS (05.09.2024)\n4. Bolalar poliklinikasi konsultatsiya to'lovi — 250,000 UZS (04.09.2024)\nJami xarajat: 2,300,000 UZS",
+      "reliabilityConsiderationsUz": "Rasmiy kassa cheklari va QR-kodli fiskal hujjatlar. Xarajatlar Sanjarning bevosita ehtiyojlari uchun sarflanganini ko'rsatadi.",
+      "whatItMayEstablishUz": "Bolaning parvarishi va o'qishi uchun doimiy moddiy xarajatlar mavjudligini.",
+      "whatItDoesNotEstablishUz": "Ushbu xarajatlar uchun otaning javobgarlik ulushi qancha bo'lishi kerakligini sud hal qiladi.",
+      "relatedLegalIssueUz": "Oila kodeksi 103-moddasi (Bolaning ta'minoti uchun qo'shimcha xarajatlarda ishtirok etish).",
+      "unlockCondition": {
+        "requiredTopic": "child_expenses",
+        "requiredRole": "applicant"
+      }
+    },
+    {
+      "id": "EVD-004",
+      "titleUz": "Guvoh Otabek Ergashevning yozma tushuntirishi",
+      "typeUz": "Guvoh ko'rsatmasi bayonnomasi",
+      "descriptionUz": "Guvoh Otabek Ergashevning konvert topshirish holati bo'yicha bergan yozma ko'rsatmasi.",
+      "submittedByUz": "Guvoh bilan suhbatdan so'ng rasmiylashtirilgan",
+      "dateOrTimelineUz": "12.09.2024 voqeasi yuzasidan",
+      "contentUz": "'Men, Ergashev Otabek, shuni ma'lum qilamanki, 2024-yil 12-sentabr kuni Jasur mening oldimga kelib, bir dona oq konvert berdi. U 'buni Dilnozaga berib qo'y, ichida pul bor' dedi. Men konvertni ochib ko'rmadim va ichida qancha summa borligini bilmayman. O'sha kuni kechqurun Dilnozaga qo'ng'iroq qildim, lekin u go'shakni ko'tarmadi. Ertasi kuni viloyatga xizmat safariga ketib qoldim va konvert mashinamning 'bardachok'ida qolib ketgan. Keyinchalik konvertni Dilnozaga bera olmadim, Jasur bilan ham bu haqda qayta gaplashmadim.'",
+      "reliabilityConsiderationsUz": "Guvohning bevosita shaxsiy idrokiga asoslangan. Konvert berilganligini tasdiqlaydi, lekin pulning miqdori va eng muhimi — Dilnozaga topshirilganligini qat'iyan rad etadi.",
+      "whatItMayEstablishUz": "Jasur Otabekka konvert bergan, ammo Dilnoza bu konvertni olmagan.",
+      "whatItDoesNotEstablishUz": "Konvert ichida 2,000,000 so'm bo'lgan-bo'lmaganligi noaniq.",
+      "relatedLegalIssueUz": "O'zbekiston Respublikasi Oila kodeksi 99-moddasi va Fuqarolik kodeksi 108-moddasi (majburiyatning lozim darajada bajarilishi).",
+      "unlockCondition": {
+        "requiredTopic": "cash_payment",
+        "requiredRole": "witness"
+      }
+    },
+    {
+      "id": "EVD-005",
+      "titleUz": "Tomonlarning da'volari va to'lovlar taqqoslash xronologiyasi",
+      "typeUz": "Tahliliy xronologik jadval",
+      "descriptionUz": "Ariza beruvchi va javobgarning ko'rsatmalari asosida tuzilgan oylik xronologik solishtirma.",
+      "submittedByUz": "Yuridik amaliyotchi (talaba) tomonidan tuzilgan tahlil",
+      "dateOrTimelineUz": "2023-yil oktabr — 2024-yil oktabr",
+      "contentUz": "1. 2023-yil oktabr: Alohida yashash boshlangan. Ota vaqti-vaqti bilan oziq-ovqat olib bergan (hujjatsiz).\n2. 2024-yil mart: Ota 500,000 so'm naqd berganini da'vo qiladi, ona buni inkor etadi (dalil yo'q).\n3. 2024-yil 18-avgust: Bank orqali 1,200,000 UZS o'tkazilgan (EVD-001 orqali isbotlangan).\n4. 2024-yil 12-sentabr: Jasur Otabekka konvert bergan (EVD-004), lekin Dilnozaga yetib bormagan.\n5. 2024-yil oktabr: Hech qanday to'lov amalga oshirilmagan.",
+      "reliabilityConsiderationsUz": "Ishdagi barcha ma'lumotlarni umumlashtiruvchi tahliliy hujjat.",
+      "whatItMayEstablishUz": "Moddiy ta'minotning muntazam bo'lmaganligi va nizoli davrlarni aniq belgilaydi.",
+      "whatItDoesNotEstablishUz": "Tomonlarning kelgusi aliment majburiyati miqdorini.",
+      "relatedLegalIssueUz": "Oila kodeksi 136-moddasi (Aliment sudga murojaat qilingan paytdan boshlab undirilishi, o'tgan davr uchun undirish cheklovlari).",
+      "unlockCondition": {
+        "autoUnlockAtStage": "evidence_review"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "CONTRA-001",
+      "titleUz": "Sentabr oyidagi 2 million so'm naqd pul nizosi",
+      "descriptionUz": "Jasur sentabr uchun Otabek orqali 2,000,000 so'm berib yuborganini ta'kidlaydi. Dilnoza bu pulni olmaganini aytadi. Guvoh Otabek konvert olganini tasdiqlaydi, lekin uni Dilnozaga bermasdan xizmat safariga ketib qolganini ma'lum qiladi.",
+      "partyAStatement": "Men hech qanday 2 million so'm olmaganman.",
+      "partyBStatement": "Men Otabekka Dilnozaga ber deb 2 million so'm berganman, mening zimmamdagi qarz emas.",
+      "evidenceReference": "EVD-002 va EVD-004"
+    },
+    {
+      "id": "CONTRA-002",
+      "titleUz": "Avgust oyidagi 1.2 million so'mning huquqiy tabiati",
+      "descriptionUz": "Jasur bu summani to'liq oylik aliment deb hisoblaydi. Dilnoza esa buni maktab formasi uchun bir martalik kelishilgan qo'shimcha xarajat deb hisoblaydi.",
+      "partyAStatement": "Bu maktab formasiga yordam edi, aliment emas.",
+      "partyBStatement": "Kartasiga o'tkazdim, bu aliment hisoblanadi.",
+      "evidenceReference": "EVD-001"
+    }
+  ],
+  "missingInfo": [
+    {
+      "id": "MISSING-001",
+      "titleUz": "Javobgarning barcha daromadlari to'g'risida rasmiy ma'lumotnoma",
+      "descriptionUz": "Jasurning ish joyidan oylik ish haqi ma'lumotnomasi va bank hisobvarag'i ko'chirmalari mavjud emas. Aliment miqdorini Oila kodeksi 99-moddasi bo'yicha to'g'ri hisoblash uchun bu hujjat talab etiladi.",
+      "whyItMattersUz": "Agar ota daromadi norasmiy bo'lsa yoki qat'iy summada undirish lozim bo'lsa (OK 102-modda), daromad tahlili zarur."
+    },
+    {
+      "id": "MISSING-002",
+      "titleUz": "Tomonlar o'rtasida notarial tasdiqlangan kelishuv",
+      "descriptionUz": "Oila kodeksi 130-moddasiga ko'ra aliment to'lash to'g'risidagi kelishuv yozma shaklda tuzilib, notarial tasdiqlanishi shart. Bunday kelishuv yo'qligi sud orqali undirishni taqozo etadi.",
+      "whyItMattersUz": "Kelishuv bo'lmaganda nizo faqat sud orqali hal qilinadi."
+    }
+  ],
+  "legalSources": [
+    {
+      "id": "LAW-001",
+      "title": "O'zbekiston Respublikasining Oila kodeksi",
+      "officialUrl": "https://lex.uz/docs/-104720",
+      "authority": "O'zbekiston Respublikasi Oliy Majlisi",
+      "articleReference": "96-modda",
+      "effectiveDate": "01.09.1998 (amaldagi tahrir)",
+      "verificationStatus": "verified",
+      "summaryUz": "Ota-ona voyaga yetmagan bolalariga ta'minot berishi shart. Bu majburiyatni ixtiyoriy bajarmagan ota-onadan aliment sud tartibida undiriladi."
+    },
+    {
+      "id": "LAW-002",
+      "title": "O'zbekiston Respublikasining Oila kodeksi",
+      "officialUrl": "https://lex.uz/docs/-104720",
+      "authority": "O'zbekiston Respublikasi Oliy Majlisi",
+      "articleReference": "99-modda",
+      "effectiveDate": "01.09.1998 (amaldagi tahrir)",
+      "verificationStatus": "verified",
+      "summaryUz": "Agar aliment to'lash haqida kelishuv bo'lmasa, voyaga yetmagan bir bola uchun ota-ona daromadining to'rtdan bir qismi (1/4) miqdorida sud orqali undiriladi."
+    },
+    {
+      "id": "LAW-003",
+      "title": "O'zbekiston Respublikasining Oila kodeksi",
+      "officialUrl": "https://lex.uz/docs/-104720",
+      "authority": "O'zbekiston Respublikasi Oliy Majlisi",
+      "articleReference": "103-modda",
+      "effectiveDate": "01.09.1998 (amaldagi tahrir)",
+      "verificationStatus": "verified",
+      "summaryUz": "Favqulodda holatlar (og'ir kasallik, mayiblik, maktabga tayyorgarlik va h.k.) yuz berganda ota-ona qo'shimcha xarajatlarda ishtirok etishga jalb qilinishi mumkin."
+    },
+    {
+      "id": "LAW-004",
+      "title": "O'zbekiston Respublikasining Oila kodeksi",
+      "officialUrl": "https://lex.uz/docs/-104720",
+      "authority": "O'zbekiston Respublikasi Oliy Majlisi",
+      "articleReference": "136-modda",
+      "effectiveDate": "01.09.1998 (amaldagi tahrir)",
+      "verificationStatus": "verified",
+      "summaryUz": "Aliment sudga murojaat qilingan paytdan boshlab undiriladi. O'tgan davr uchun aliment sudga murojaat qilishdan oldin chora ko'rilganligi, lekin ota to'lashdan bo'yin tovlaganligi isbotlansa, uch yillik muddat doirasida undirilishi mumkin."
+    },
+    {
+      "id": "LAW-005",
+      "title": "O'zbekiston Respublikasi Oliy sudi Plenumining 1998-yil 11-sentabrdagi 23-sonli qarori",
+      "officialUrl": "https://lex.uz/docs/-1449622",
+      "authority": "O'zbekiston Respublikasi Oliy sudi Plenumi",
+      "articleReference": "4 va 7-bandlar",
+      "effectiveDate": "11.09.1998 (amaldagi tahrir)",
+      "verificationStatus": "verified",
+      "summaryUz": "Voyaga yetmagan bolalar ta'minoti uchun aliment undirish amaliyoti: sudlar bolaning manfaatlarini ustuvor hisoblashi, norasmiy daromadlar mavjud bo'lganda qat'iy pul summasida undirish imkoniyatini ko'rib chiqishi tushuntirilgan."
+    }
+  ],
+  "rubric": [
+    {
+      "key": "interview_quality",
+      "titleUz": "Muloqot va so'roq sifati",
+      "maxScore": 15,
+      "descriptionUz": "Ishtirokchilarga aniq, mantiqiy va professional savollar berish, faktlarni to'liq aniqlash darajasi."
+    },
+    {
+      "key": "fact_discovery",
+      "titleUz": "Faktlarni aniqlash va to'liqlik",
+      "maxScore": 15,
+      "descriptionUz": "Alohida yashash davri, to'lovlarning mavjudligi va yetishmayotgan ma'lumotlarni to'g'ri qayd etish."
+    },
+    {
+      "key": "evidence_analysis",
+      "titleUz": "Dalillar tahlili va baholash",
+      "maxScore": 20,
+      "descriptionUz": "Bank kvitansiyasi (EVD-001) va guvoh tushuntirishi (EVD-004) o'rtasidagi ziddiyatlarni ochib berish va dalillarning ishonchliligini tahlil qilish."
+    },
+    {
+      "key": "legal_issues",
+      "titleUz": "Huquqiy nizoni to'g'ri aniqlash",
+      "maxScore": 10,
+      "descriptionUz": "Aliment undirish tartibi, muntazamlik va qo'shimcha xarajatlar o'rtasidagi farqni ilg'ash."
+    },
+    {
+      "key": "legal_provisions",
+      "titleUz": "Qonun normalarini qo'llash (lex.uz)",
+      "maxScore": 10,
+      "descriptionUz": "O'zbekiston Respublikasi Oila kodeksining 96, 99, 103 va 136-moddalariga to'g'ri asoslanish."
+    },
+    {
+      "key": "legal_reasoning",
+      "titleUz": "Huquqiy asoslash va mantiqiy xulosa",
+      "maxScore": 10,
+      "descriptionUz": "Faktlardan xulosaga o'tish mantiqi va da'vo talablarining qonuniy asoslantirilishi."
+    },
+    {
+      "key": "document_structure",
+      "titleUz": "Hujjat tuzilishi va rasmiylashtirish",
+      "maxScore": 10,
+      "descriptionUz": "Sud arizasi yoki yuridik xulosa bo'limlarining to'g'ri va talabga mos shakllantirilganligi."
+    },
+    {
+      "key": "clarity_communication",
+      "titleUz": "Yuridik til va ravonlik",
+      "maxScore": 10,
+      "descriptionUz": "O'zbek adabiy va yuridik tiliga rioya qilish, tushunarli va professional bayon etish."
+    }
+  ],
+  "documentTask": {
+    "titleUz": "Voyaga yetmagan bola ta'minoti uchun aliment undirish to'g'risida sud arizasi loyihasi",
+    "instructionsUz": "To'plangan dalillar va Oila kodeksi normalari asosida Fuqarolik ishlari bo'yicha tumanlararo sudiga kiritiladigan ta'limiy ariza loyihasini tayyorlang. Qismlarni mustaqil to'ldiring va AI tekshiruvidan o'tkazing.",
+    "documentType": "court_application",
+    "requiredSections": [
+      {
+        "key": "court_and_parties",
+        "labelUz": "1. Sud nomi va taraflar ma'lumotlari (Kirish qismi)",
+        "placeholderUz": "Fuqarolik ishlari bo'yicha ... tumanlararo sudiga\nDa'vogar: Karimova Dilnoza ...\nJavobgar: Toshpo'latov Jasur ...",
+        "guidanceUz": "Sudning nomi, da'vogar va javobgarning to'liq ismi-sharifi va manzillari ko'rsatiladi."
+      },
+      {
+        "key": "factual_background",
+        "labelUz": "2. Ishning holatlari va bayon qismi",
+        "placeholderUz": "Biz javobgar Toshpo'latov J. bilan 2015-yilda nikohdan o'tganmiz. Birgalikdagi turmushimizdan 2016-yilda tug'ilgan o'g'limiz Sanjar bor...",
+        "guidanceUz": "Nikoh, bolaning tug'ilishi, alohida yashash boshlangan vaqt va bolaning kim bilan yashayotganligini bayon qiling."
+      },
+      {
+        "key": "evidence_and_maintenance_claims",
+        "labelUz": "3. Moddiy ta'minotning yetarli emasligi va dalillar",
+        "placeholderUz": "Javobgar bolaning moddiy ta'minotida yetarli ishtirok etmayapti. Faqatgina 2024-yil avgustda 1.2 mln so'm o'tkazgan bo'lib, bu maktab kiyimlariga sarflandi...",
+        "guidanceUz": "Bank o'tkazmasi, xarajatlar cheklari va naqd pul yetib kelmaganligi holatlarini dalillarga tayanib yozing."
+      },
+      {
+        "key": "legal_grounds",
+        "labelUz": "4. Huquqiy asoslar (Oila kodeksi normalari)",
+        "placeholderUz": "O'zbekiston Respublikasi Oila kodeksining 96-moddasiga ko'ra ota-ona voyaga yetmagan bolalariga ta'minot berishi shart...",
+        "guidanceUz": "Oila kodeksining 96 va 99-moddalariga tayangan holda javobgarning aliment to'lash majburiyatini asoslang."
+      },
+      {
+        "key": "request_prayer",
+        "labelUz": "5. Iltimosnoma va talab qismi (So'rov)",
+        "placeholderUz": "Yuqoridagilarga asosan suddan so'rayman:\nJavobgar Toshpo'latov Jasurdan voyaga yetmagan o'g'limiz Sanjarning ta'minoti uchun...",
+        "guidanceUz": "Suddan nima talab qilinayotgani (oylik daromadning 1/4 qismi miqdorida aliment undirish) aniq yoziladi."
+      },
+      {
+        "key": "attachments",
+        "labelUz": "6. Ilova qilinayotgan hujjatlar ro'yxati",
+        "placeholderUz": "1. Bolaning tug'ilganlik haqidagi guvohnomasi nusxasi;\n2. Nikoh guvohnomasi nusxasi;\n3. Mahalla yoki maktabdan ma'lumotnoma;\n4. To'lov cheklari nusxalari...",
+        "guidanceUz": "Arizaga ilova qilinishi lozim bo'lgan tasdiqlovchi hujjatlar ro'yxatini keltiring."
+      }
+    ]
+  }
+}
