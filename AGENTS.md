@@ -1,7 +1,8 @@
-# AGENTS.md — YuridikSim AI
+# AGENTS.md — LegalIntern
+
 ## Agent Workflows, Product Principles & Engineering Standards
 
-**Project:** YuridikSim AI
+**Project:** LegalIntern
 **Product Type:** AI-Powered Legal Case Practice and Document Training Platform
 **Primary Language:** Uzbek (Latin script)
 **Jurisdiction:** Republic of Uzbekistan
@@ -11,7 +12,7 @@
 
 # 1. PROJECT MISSION
 
-YuridikSim AI is an AI-powered legal education platform designed to help law students in Uzbekistan develop practical legal skills through controlled, fictional, interactive case simulations.
+LegalIntern is an AI-powered legal education platform designed to help law students in Uzbekistan develop practical legal skills through controlled, fictional, interactive case simulations.
 
 The platform bridges the gap between theoretical legal education and practical legal work.
 
@@ -32,7 +33,7 @@ The platform also provides structured AI-assisted feedback to help students iden
 
 ## 1.1 Core Product Philosophy
 
-YuridikSim AI is NOT a generic chatbot, a virtual courtroom, or a conventional Learning Management System (LMS).
+LegalIntern is NOT a generic chatbot, a virtual courtroom, or a conventional Learning Management System (LMS).
 
 Its core product is an interactive legal practice environment in which students learn by investigating and solving fictional legal cases.
 
@@ -1206,7 +1207,7 @@ However, do not build them prematurely.
 
 # 22. FINAL RULES FOR ALL AGENTS
 
-Every agent working on YuridikSim AI must prioritize the following principles:
+Every agent working on LegalIntern must prioritize the following principles:
 
 1. Product functionality over visual-only prototypes.
 2. Deterministic scenario management over unrestricted LLM behavior.

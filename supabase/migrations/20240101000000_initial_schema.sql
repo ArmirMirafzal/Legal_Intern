@@ -1,4 +1,4 @@
--- YuridikSim AI — Initial Database Schema with Row Level Security (RLS)
+-- LegalIntern — Initial Database Schema with Row Level Security (RLS)
 
 -- 1. Profiles Table
 CREATE TABLE IF NOT EXISTS public.profiles (

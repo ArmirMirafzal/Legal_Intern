@@ -111,5 +111,280 @@
         "createdAt": "2026-11-21T06:57:15.394Z"
       }
     ]
+  },
+  {
+    "session": {
+      "id": "sim_icytaxg6",
+      "scenarioId": "CASE-001",
+      "userId": "demo-student-id",
+      "currentStage": "applicant_interview",
+      "currentCharacterRole": "applicant",
+      "unlockedFactIds": [
+        "FACT-001",
+        "FACT-002"
+      ],
+      "unlockedEvidenceIds": [],
+      "studentNotes": "",
+      "startedAt": "2026-11-21T10:53:31.535Z",
+      "lastActivityAt": "2026-11-21T10:53:31.549Z",
+      "status": "in_progress"
+    },
+    "messages": [
+      {
+        "id": "msg_init",
+        "sessionId": "sim_icytaxg6",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+        "createdAt": "2026-11-21T10:53:31.548Z"
+      }
+    ]
+  },
+  {
+    "session": {
+      "id": "sim_vdn3idx5",
+      "scenarioId": "CASE-001",
+      "userId": "demo-student-id",
+      "currentStage": "applicant_interview",
+      "currentCharacterRole": "applicant",
+      "unlockedFactIds": [
+        "FACT-001",
+        "FACT-002"
+      ],
+      "unlockedEvidenceIds": [],
+      "studentNotes": "",
+      "startedAt": "2026-11-21T10:58:15.699Z",
+      "lastActivityAt": "2026-11-21T10:59:59.452Z",
+      "status": "in_progress"
+    },
+    "messages": [
+      {
+        "id": "msg_init",
+        "sessionId": "sim_vdn3idx5",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+        "createdAt": "2026-11-21T10:58:15.703Z"
+      },
+      {
+        "id": "msg_stu_560vovr",
+        "sessionId": "sim_vdn3idx5",
+        "characterRole": "applicant",
+        "senderType": "student",
+        "content": "farzandni otasi ekanini hujjat bilan tasdiqlay olasizmi ?",
+        "metadata": {
+          "detectedTopic": "relationship_context"
+        },
+        "createdAt": "2026-11-21T10:59:59.453Z"
+      },
+      {
+        "id": "msg_char_xpk20e6",
+        "sessionId": "sim_vdn3idx5",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "O'g'limiz Sanjar 8 yoshda, hozir 2-sinfda o'qiydi. Biz alohida yashashni boshlaganimizdan beri bola to'liq mening qaramog'imda va tarbiyamda. Otasi esa haftalab, oylab xabar olmaydi.",
+        "metadata": {
+          "unlockedFactIds": [],
+          "unlockedEvidenceIds": []
+        },
+        "createdAt": "2026-11-21T11:00:28.732Z"
+      }
+    ]
+  },
+  {
+    "session": {
+      "id": "sim_jb6ke3m1",
+      "scenarioId": "CASE-001",
+      "userId": "demo-student-id",
+      "currentStage": "applicant_interview",
+      "currentCharacterRole": "applicant",
+      "unlockedFactIds": [
+        "FACT-001",
+        "FACT-002"
+      ],
+      "unlockedEvidenceIds": [],
+      "studentNotes": "",
+      "startedAt": "2026-11-21T11:05:18.626Z",
+      "lastActivityAt": "2026-11-21T11:05:18.630Z",
+      "status": "in_progress"
+    },
+    "messages": [
+      {
+        "id": "msg_init",
+        "sessionId": "sim_jb6ke3m1",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+        "createdAt": "2026-11-21T11:05:18.630Z"
+      }
+    ]
+  },
+  {
+    "session": {
+      "id": "sim_yl4q0m6y",
+      "scenarioId": "CASE-001",
+      "userId": "demo-student-id",
+      "currentStage": "applicant_interview",
+      "currentCharacterRole": "applicant",
+      "unlockedFactIds": [
+        "FACT-001",
+        "FACT-002"
+      ],
+      "unlockedEvidenceIds": [],
+      "studentNotes": "",
+      "startedAt": "2026-11-21T11:27:21.540Z",
+      "lastActivityAt": "2026-11-21T11:33:25.104Z",
+      "status": "in_progress"
+    },
+    "messages": [
+      {
+        "id": "msg_init",
+        "sessionId": "sim_yl4q0m6y",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+        "createdAt": "2026-11-21T11:27:21.545Z"
+      },
+      {
+        "id": "msg_init_respondent_1795260508511",
+        "sessionId": "sim_yl4q0m6y",
+        "characterRole": "respondent",
+        "senderType": "character",
+        "content": "Salom. To'g'risi, nega bu yerga chaqirishganiga uncha tushunmadim. Dilnoza mening ustimdan shikoyat qilganmush. Men o'z bolamdan hech qachon qochganim yo'q! Avgust oyida kartasiga 1 million 200 ming so'm pul o'tkazdim, sentabrda esa tog'avachchasi Otabekdan 2 million so'm naqd pul ham berib yubordim. Yana qanday da'vo bo'lishi mumkin?",
+        "createdAt": "2026-11-21T11:28:28.511Z"
+      },
+      {
+        "id": "msg_stu_krw6fch",
+        "sessionId": "sim_yl4q0m6y",
+        "characterRole": "applicant",
+        "senderType": "student",
+        "content": "oilangiz haqida to'liq malumot bering",
+        "metadata": {
+          "detectedTopic": "relationship_context"
+        },
+        "createdAt": "2026-11-21T11:33:25.105Z"
+      },
+      {
+        "id": "msg_char_irkjpsw",
+        "sessionId": "sim_yl4q0m6y",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Tushundim. Sanjarning kelajagi va ta'minoti men uchun eng muhim masala. Siz so'ragan narsa bo'yicha yana nimalarni aniqlashtirishim kerak? Qonuniy aliment undirishga qanday yordam bera olasiz?",
+        "metadata": {
+          "unlockedFactIds": [],
+          "unlockedEvidenceIds": []
+        },
+        "createdAt": "2026-11-21T11:38:33.253Z"
+      }
+    ]
+  },
+  {
+    "session": {
+      "id": "sim_ztf0vnq6",
+      "scenarioId": "CASE-001",
+      "userId": "demo-student-id",
+      "currentStage": "applicant_interview",
+      "currentCharacterRole": "applicant",
+      "unlockedFactIds": [
+        "FACT-001",
+        "FACT-002"
+      ],
+      "unlockedEvidenceIds": [],
+      "studentNotes": "",
+      "startedAt": "2026-11-21T11:42:03.291Z",
+      "lastActivityAt": "2026-11-21T11:42:03.296Z",
+      "status": "in_progress"
+    },
+    "messages": [
+      {
+        "id": "msg_init",
+        "sessionId": "sim_ztf0vnq6",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+        "createdAt": "2026-11-21T11:42:03.296Z"
+      }
+    ]
+  },
+  {
+    "session": {
+      "id": "sim_vkrrlkyr",
+      "scenarioId": "CASE-001",
+      "userId": "demo-student-id",
+      "currentStage": "applicant_interview",
+      "currentCharacterRole": "applicant",
+      "unlockedFactIds": [
+        "FACT-001",
+        "FACT-002",
+        "FACT-003"
+      ],
+      "unlockedEvidenceIds": [
+        "EVD-001"
+      ],
+      "studentNotes": "",
+      "startedAt": "2026-11-21T11:42:17.715Z",
+      "lastActivityAt": "2026-11-21T11:46:18.294Z",
+      "status": "in_progress"
+    },
+    "messages": [
+      {
+        "id": "msg_init",
+        "sessionId": "sim_vkrrlkyr",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Assalomu alaykum, hurmatli huquqshunos. Oxirgi bir yil ichida erim bilan alohida yashayapmiz. O'g'limiz Sanjar 8 yoshda, 2-sinfda o'qiydi. Otasi Sanjarning ta'minotiga deyarli e'tibor bermay qo'ydi. Bergan pullari juda tartibsiz, bir marta ozgina o'tkazdi-yu, shu bilan yo'qolib ketdi. Qonun bo'yicha qanday yo'l tutsam bo'ladi?",
+        "createdAt": "2026-11-21T11:42:17.718Z"
+      },
+      {
+        "id": "msg_stu_fxrn3rl",
+        "sessionId": "sim_vkrrlkyr",
+        "characterRole": "applicant",
+        "senderType": "student",
+        "content": "tolovlar bo'yicha dalillarni yoki cheklarni bering",
+        "metadata": {
+          "detectedTopic": "payment_history"
+        },
+        "createdAt": "2026-11-21T11:46:18.294Z"
+      },
+      {
+        "id": "msg_stu_t3e7sbj",
+        "sessionId": "sim_vkrrlkyr",
+        "characterRole": "applicant",
+        "senderType": "student",
+        "content": "oilangiz haqida malumot to'liq malumot bering",
+        "metadata": {
+          "detectedTopic": "relationship_context"
+        },
+        "createdAt": "2026-11-21T11:47:34.204Z"
+      },
+      {
+        "id": "msg_char_0vh7lk2",
+        "sessionId": "sim_vkrrlkyr",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Tushundim. Sanjarning kelajagi va ta'minoti men uchun eng muhim masala. Siz so'ragan narsa bo'yicha yana nimalarni aniqlashtirishim kerak? Qonuniy aliment undirishga qanday yordam bera olasiz?",
+        "metadata": {
+          "unlockedFactIds": [],
+          "unlockedEvidenceIds": []
+        },
+        "createdAt": "2026-11-21T11:47:44.984Z"
+      },
+      {
+        "id": "msg_char_e5gf2g0",
+        "sessionId": "sim_vkrrlkyr",
+        "characterRole": "applicant",
+        "senderType": "character",
+        "content": "Ha, 2024-yil 18-avgustda Jasur kartamga 1 million 200 ming so'm o'tkazdi. Lekin bu oylik aliment emas edi! Sanjarga maktab formasi va darsliklar olish uchun qarz bo'lib qolganimda, iltimos qilganimdan keyin bir martalik yordam sifatida o'tkazgandi. Payme chekida ham 'Sanjar maktabga moddiy yordam' deb yozilgan.",
+        "metadata": {
+          "unlockedFactIds": [
+            "FACT-003"
+          ],
+          "unlockedEvidenceIds": [
+            "EVD-001"
+          ]
+        },
+        "createdAt": "2026-11-21T11:47:51.178Z"
+      }
+    ]
   }
 ]

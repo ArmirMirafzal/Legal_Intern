@@ -1,4 +1,4 @@
--- YuridikSim AI — Initial Seed Data for CASE-001
+-- LegalIntern — Initial Seed Data for CASE-001
 
 INSERT INTO public.scenarios (
   id,
@@ -47,7 +47,7 @@ INSERT INTO public.scenarios (
 -- Seed Legal Sources
 INSERT INTO public.legal_sources (
   id, scenario_id, title, official_url, authority, article_reference, effective_date, verification_status, summary_uz
-) VALUES 
+) VALUES
 ('LAW-001', 'CASE-001', 'O''zbekiston Respublikasining Oila kodeksi', 'https://lex.uz/docs/-104720', 'O''zbekiston Respublikasi Oliy Majlisi', '96-modda', '01.09.1998', 'verified', 'Ota-ona voyaga yetmagan bolalariga ta''minot berishi shart.'),
 ('LAW-002', 'CASE-001', 'O''zbekiston Respublikasining Oila kodeksi', 'https://lex.uz/docs/-104720', 'O''zbekiston Respublikasi Oliy Majlisi', '99-modda', '01.09.1998', 'verified', 'Bir bola uchun daromadning 1/4 qismi miqdorida aliment undiriladi.'),
 ('LAW-003', 'CASE-001', 'O''zbekiston Respublikasining Oila kodeksi', 'https://lex.uz/docs/-104720', 'O''zbekiston Respublikasi Oliy Majlisi', '103-modda', '01.09.1998', 'verified', 'Alohida sharoitlarda qo''shimcha xarajatlarda ishtirok etish.'),

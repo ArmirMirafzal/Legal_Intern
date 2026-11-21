@@ -1,13 +1,15 @@
-# YuridikSim AI — AI Architecture
+# LegalIntern — AI Architecture
 
 ## 1. Provider & SDK
+
 - **Provider:** Google Gemini Developer API
 - **SDK:** Official JavaScript SDK `@google/genai`
 - **Default Model:** `gemini-3.8-flash` (configurable via `GEMINI_MODEL`)
 - **Key Configuration:** `GEMINI_API_KEY`
 
 ## 2. Multi-Engine Architecture
-Rather than relying on a single monolithic prompt, YuridikSim AI separates AI concerns into specialized engines:
+
+Rather than relying on a single monolithic prompt, LegalIntern separates AI concerns into specialized engines:
 
 ```
                       Student Message
@@ -26,6 +28,7 @@ Rather than relying on a single monolithic prompt, YuridikSim AI separates AI co
 ```
 
 ### Specialized Modules:
+
 1. **`RoleplayEngine` (`src/lib/ai/roleplay-engine.ts`)**:
    - Generates natural, in-character Uzbek dialogues.
    - Strictly bounded by authorized facts provided by the Scenario Engine.
@@ -41,4 +44,5 @@ Rather than relying on a single monolithic prompt, YuridikSim AI separates AI co
    - Generates structured issue cards (error, warning, suggestion) without writing the document for the student.
 
 ## 3. Resilience & Demo Mode
+
 When `DEMO_MODE=true` or when `GEMINI_API_KEY` is not present, the `GeminiProvider` activates calibrated offline deterministic simulation logic. This allows instant demonstration, continuous integration testing, and local evaluation without external network dependencies.

@@ -1,8 +1,9 @@
-# Product Roadmap — YuridikSim AI
+# Product Roadmap — LegalIntern
 
 ## Phase 1 — MVP (Delivered)
+
 - [x] Complete Next.js App Router architecture with strict TypeScript & Tailwind CSS.
-- [x] CASE-001 Family Law seed scenario: *Aliment to‘lovlari bilan bog‘liq nizo*.
+- [x] CASE-001 Family Law seed scenario: _Aliment to‘lovlari bilan bog‘liq nizo_.
 - [x] Deterministic Scenario Engine with fact disclosure and evidence unlocking triggers.
 - [x] Google Gemini Developer API integration via official `@google/genai` SDK.
 - [x] Anti-hallucination roleplay prompts for Applicant, Respondent, and Witness personas.
@@ -14,6 +15,7 @@
 - [x] Offline Demo Mode fallback for deterministic testing and presentation.
 
 ## Phase 2 — Post-MVP
+
 - [ ] Labour Law (CASE-002: Unlawful Termination under new Labour Code).
 - [ ] Consumer Protection (CASE-003: Defective goods warranty claims).
 - [ ] Audio transcription and voice notes for mobile mock interviewing.
@@ -21,5 +23,6 @@
 - [ ] University LMS integration (Moodle / TSUL student portal SSO).
 
 ## Phase 3 — Enterprise & Moot Court
+
 - [ ] Multiplayer moot court rounds (Student vs Student mock hearings).
 - [ ] Automated court order generation and MIB enforcement simulation.

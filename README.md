@@ -1,12 +1,14 @@
-# YuridikSim AI — O'zbekiston Yuridik Ta'lim Texnologiyasi
+# LegalIntern — O'zbekiston Yuridik Ta'lim Texnologiyasi
 
-> **AI-quvvatli yuridik kazus va hujjatlar amaliyoti platformasi**  
-> *AI-powered Legal Case Practice and Document Training Platform for Uzbekistan's Law Students*
+> **AI-quvvatli yuridik kazus va hujjatlar amaliyoti platformasi**
+> _AI-powered Legal Case Practice and Document Training Platform for Uzbekistan's Law Students_
 
 ---
 
 ## 🌟 Mahsulot Haqida (About the Product)
-**YuridikSim AI** — O'zbekiston yuridik ta'limi tizimi uchun mo'ljallangan interaktiv amaliy simulyator. Talabalar quruq nazariyani yodlash bilan cheklanmasdan, haqiqiy tergov va himoya jarayonini boshdan kechiradilar:
+
+**LegalIntern** — O'zbekiston yuridik ta'limi tizimi uchun mo'ljallangan interaktiv amaliy simulyator. Talabalar quruq nazariyani yodlash bilan cheklanmasdan, haqiqiy tergov va himoya jarayonini boshdan kechiradilar:
+
 1. **AI Personajlari bilan muloqot:** Ariza beruvchi (ona), Javobgar (ota) va Guvoh (qarindosh) bilan professional so'roq o'tkazish.
 2. **Dalillarni ochish va tahlil qilish:** Bank cheklari, Telegram yozishmalari va guvoh tushuntirishlari o'rtasidagi ziddiyatlarni ochish.
 3. **Mustaqil huquqiy tahlil:** 10 qismli tahlil shakli va Oila kodeksiga tayangan holda dastlabki pozitsiyani belgilash.
@@ -16,6 +18,7 @@
 ---
 
 ## 🚀 Texnologik Stek (Tech Stack)
+
 - **Frontend:** Next.js (App Router), React, TypeScript (Strict Mode), Tailwind CSS, Lucide React, Canvas Confetti
 - **Backend:** Next.js Route Handlers, Zod Validation, Supabase SSR
 - **Database & Auth:** PostgreSQL with Row Level Security (RLS) via Supabase
@@ -26,6 +29,7 @@
 ---
 
 ## 📂 Loyiha Tuzilmasi (Folder Map)
+
 ```text
 yuridiksim-ai/
 ├── src/
@@ -57,29 +61,37 @@ yuridiksim-ai/
 ## ⚡ Qanday Ishga Tushiriladi? (Quickstart)
 
 ### 1. Bog'liqliklarni o'rnatish
+
 ```bash
 npm install
 ```
 
 ### 2. Muhit o'zgaruvchilari
+
 `.env.example` faylidan nusxa olib `.env.local` yarating:
+
 ```bash
 cp .env.example .env.local
 ```
+
 > **Eslatma:** Agar `GEMINI_API_KEY` yoki `NEXT_PUBLIC_SUPABASE_URL` ko'rsatilmagan bo'lsa, tizim avtomatik ravishda to'liq ta'limiy **Demo Mode** rejimida ishlaydi va barcha simulyatsiyani sinovdan o'tkazish imkonini beradi.
 
 ### 3. Testlarni ishga tushirish
+
 ```bash
 npm test
 ```
 
 ### 4. Dasturni ishga tushirish
+
 ```bash
 npm run dev
 ```
+
 Brauzerda [http://localhost:3000](http://localhost:3000) manzilini oching.
 
 ### 5. Ishlab chiqarish (Production) build
+
 ```bash
 npm run build
 npm start
@@ -88,5 +100,6 @@ npm start
 ---
 
 ## ⚖️ Huquqiy Ogohlantirish (Educational Disclaimer)
-YuridikSim AI platformasidagi barcha shaxslar, bank hisoblari, kvitansiyalar, yozishmalar va kazuslar sun'iy ravishda o'quv maqsadida yaratilgan bo'lib, professional advokatlik yoki rasmiy yuridik maslahat o'rnini bosmaydi.
+
+LegalIntern platformasidagi barcha shaxslar, bank hisoblari, kvitansiyalar, yozishmalar va kazuslar sun'iy ravishda o'quv maqsadida yaratilgan bo'lib, professional advokatlik yoki rasmiy yuridik maslahat o'rnini bosmaydi.
 Qonunchilik normalari [Lex.uz](https://lex.uz) rasmiy portali asosida keltirilgan.
